@@ -16,7 +16,7 @@ function chequearResultado(){
         mensaje.textContent = 'Ingresa un valor valido entre 1 y 100';
         mensaje.style.color = 'orange';
         return;
-    }
+    } 
 
     if(numeroIngresado == numeroAzar){
         mensaje.textContent = 'Felicidades adivinaste el numero';
