@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+}
+
+.flex-container>div {
+    background-color: burlywood;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 200px;
+    height: 200px;
+}

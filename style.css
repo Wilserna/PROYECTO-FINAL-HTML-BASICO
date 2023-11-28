@@ -1,0 +1,60 @@
+h1 {
+    color: aqua;
+    background-color: blue;
+}
+
+h2 {
+    color: chartreuse;
+    background-color: brown;
+}
+
+h1.seccion1 {
+    color: chocolate;
+    background-color: aqua;
+}
+
+h2.seccion2 {
+    color: crimson;
+    background-color: cadetblue;
+}
+
+p.seccion1 {
+    color: blue;
+    background-color: coral;
+}
+
+p.seccion2 {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+.NuevoEstilo1 {
+    color: white;
+    background-color: black;
+}
+
+.NuevoEstilo2 {
+    color: white;
+    background-color: rgba(6, 6, 244, 0.089);
+}
+
+ul {
+    background-color: aqua;
+    padding: 20px;
+}
+
+li {
+    color: black;
+    background-color: hsl(128, 35%, 21%);
+    padding: 1px;
+    margin: 5px;
+    /* border: 50px; */
+}
+
+body {
+    background-image: url(assets/imagenes/electronica-definicion.jpg);
+    background-size: cover;
+   /*  background-repeat: no-repeat;
+    background-position: center; */
+}
+

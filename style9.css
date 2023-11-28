@@ -1,0 +1,16 @@
+/* .container{
+    height: 300px;
+    width: 400px;
+    background-color: antiquewhite;
+    overflow: scroll;
+} */
+
+img {
+    float: left;
+    padding-right: 10px;
+}
+
+p {
+    font-size: 40px;
+    text-align: justify;
+}

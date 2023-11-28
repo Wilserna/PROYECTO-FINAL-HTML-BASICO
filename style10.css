@@ -1,0 +1,62 @@
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: bisque;
+    background-color: cadetblue;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:active{
+    background-color: cornflowerblue;
+}
+
+p{
+    display: none;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+div:hover p {
+    display: block;
+}
+
+p::first-line{
+    color: darkred;
+}
+
+p::first-letter{
+    color: green;
+    font-size: 30px;
+}
+
+h1::before{
+    content: url(./assets/iconos/iconoatomo.png);
+}
+
+::marker{
+    color: blueviolet;
+    font-size: 10px;
+}
+
+::selection{
+    color: red;
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+   
+}
+
+img:hover{
+    opacity: 0.3;
+}

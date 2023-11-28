@@ -1,0 +1,37 @@
+.contenedor{
+    overflow: auto;
+}
+
+.leftside{
+    float: left;
+    width: auto;
+}
+
+.texto{
+    position: absolute;
+    top: 0;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* @media (min-width:700px){
+    .leftside{
+        float: left;
+        width: 300px;
+    }
+
+    .img{
+        width: 100%;
+        height: auto;
+    }
+
+    .texto{
+        position: static;
+    }
+} */
+
+@media (max-width:900px)and(max-height:700px){
+    body{
+        background-color: black;
+    }
+}

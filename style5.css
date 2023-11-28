@@ -1,0 +1,39 @@
+/* .container{
+    position: static;
+    border: 2px solid blue;
+    background-color: yellow;
+} */
+
+/* .container{
+    position: relative;
+    left: 20px;
+    border: 2px solid blue;
+    background-color: greenyellow;
+    top: 50px;
+} */
+
+.container{
+    position: sticky;
+    top: 10px;
+    border: 2px solid blue;
+    background-color: greenyellow;
+}
+
+/* .container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid blue;
+} */
+
+/* .container{
+    position: relative;
+     bottom: 0; 
+     right: 0; 
+    border: 2px solid blue;
+} */
+
+/* .parrafo {
+    position: relative;
+    bottom: 10px;
+} */

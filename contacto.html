@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metadato" content="valor" http-equiv="cabecera-http" scheme="esquema">
+    <meta name="author" content="Wilson">
+    <meta name="keywords" content="">
+    <title>Sitio Web Electrónica</title>
+    <link rel="shortcut icon" href="asets/iconos/iconoatomo.png" title="iconoatomo">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background:linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active){
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04aa6d;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;            
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Electrónica</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="temas.html">Temas</a></li>
+                <li><a href="herramientas.html">Herramientas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombres" required minlength="3">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required minlength="3">
+            <label for="mail">e-mail: </label>
+            <input type="email" id="mail" name="mail" placeholder="Email">
+            <label for="pais">Pais: </label>
+
+            <select id="pais" name="pais">
+                <optgroup label="NorteAmerica">
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Canada">Canadá</option>
+                </optgroup>
+
+                <optgroup label="SurAmerica">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Peru">Perú</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Argentina">Argentina</option>
+                </optgroup>
+
+                <optgroup label="Europa">
+                    <option value="Inglaterra">Inglaterra</option>
+                    <option value="España">España</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Rusia">Rusia</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Suiza">Suiza</option>
+                    <option value="Suecia">Suecia</option>
+                    <option value="Belgica">Belgica</option>
+                    <option value="Paises Bajos">Paises Bajos</option>
+                    <option value="Croacia">Croacia</option>
+                    <option value="Noruega">Noruega</option>
+                    <option value="Escocia">Escocia</option>
+                    <option value="Gales">Gales</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Rumania">Rumania</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Finlandia">Finlandia</option>
+                    <option value="Republica Checa">Republica Checa</option>
+                    <option value="Turquia">Turquia</option>
+                </optgroup>
+
+                <optgroup label="Asia">
+                    <option value="Japon">Japón</option>
+                    <option value="China">China</option>
+                    <option value="Arabia Saudita">Arabia Saudita</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Corea del Sur">Corea del Sur</option>
+                    <option value="Corea">Corea</option>
+                </optgroup>
+
+                <optgroup label="Africa">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Egipto">Egipto</option>
+                    <option value="Marruecos">Marruecos</option>
+                    <option value="Camerun">Camerun</option>
+                    <option value="Senegal">Senegal</option>
+                </optgroup>
+
+                <optgroup label="Oceania">
+                    <option value="Australia">Australia</option>
+                    <option value="Nueva Zelanda">Nueva Zelanda</option>
+                </optgroup>
+
+                <optgroup label="CentroAmerica">
+                    <option value="Mexico">Mexico</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Panama">Panamá</option>
+                </optgroup>
+
+            </select>
+
+            <label for="comentario">Comentarios: </label>
+            <textarea name="comentario" id="comentario" placeholder="Comentarios"></textarea>
+
+            <label for="motivo">Motivo de contacto: </label>
+            <input type="radio" id="motivo" name="motivo"><i>Información</i>
+            <input type="radio" id="motivo" name="motivo"><i>Registro</i>
+            <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+            <input type="radio" id="motivo" name="motivo"><i>Felicitaciones</i>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>

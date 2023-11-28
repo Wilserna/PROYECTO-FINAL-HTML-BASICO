@@ -1,0 +1,24 @@
+h1{
+    position: absolute;
+    top: 50px;
+    font-size: 100px;
+    color: blue;
+}
+
+.adelante1{
+    z-index: 1;
+    left: 100px;
+    position: relative;
+}
+
+.atras{
+    z-index: 0;
+    left: 400px;
+    position: relative;
+}
+
+.adelante2{
+    z-index: 1;
+    left: 800px;
+    position: relative;
+}

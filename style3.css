@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {
+    list-style-image: url(./assets/iconos/icons8-child-safe-zone-16.png);
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+li {
+    color: black;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+}

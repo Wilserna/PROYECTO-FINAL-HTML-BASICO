@@ -1,0 +1,26 @@
+.overline {
+    text-decoration-line: overline;
+    text-decoration-color: blueviolet;
+}
+
+.line-trough {
+    text-decoration-line: line-through;
+    text-decoration-color: aqua;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

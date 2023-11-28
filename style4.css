@@ -1,0 +1,49 @@
+.menu {
+    width: 100%;
+    background: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.menu li a:hover {
+    background: #ccc;
+    color: #000;
+}
+
+tr, td {
+
+    border: 1px solid blue;
+    text-align: center;
+    width: 150px;
+    /* background-color: blanchedalmond; */
+}
+
+table, th, .columna1 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    background-color: gray;
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+tr:nth-child(odd) {
+    background-color: beige;
+}
+
+tr:hover {
+    background-color: cornflowerblue;
+}

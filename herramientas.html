@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metadato" content="valor" http-equiv="cabecera-http" scheme="esquema">
+    <meta name="author" content="Wilson">
+    <meta name="keywords" content="">
+    <title>Sitio Web Electrónica</title>
+    <link rel="shortcut icon" href="asets/iconos/iconoatomo.png" title="iconoatomo">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background:linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04aa6d;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Electrónica</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="temas.html">Temas</a></li>
+                <li><a href="herramientas.html">Herramientas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="centrado">
+        <video src="./assets/video/ElectronicaBasica.mp4" autoplay controls></video>
+    </div><br><br>
+    <div class="centrado">
+        <audio src="./assets/audio/electronicabasica.mp3.ogg" autoplay controls></audio>
+    </div>
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="./assets/imagenes/componentes.jpg" target="_blank"><img src="./assets/imagenes/componentes.jpg" alt="imagen6" width="600"></a>
+            <div class="desc">Componentes electrónicos</div>
+        </div>
+
+        <div class="gallery">
+            <a href="./assets/imagenes/herramienta.png" target="_blank"><img src="./assets/imagenes/herramienta.png" alt="imagen7" width="600"></a>
+            <div class="desc">Herramientas Electronicas</div>
+        </div>
+
+        <div class="gallery">
+            <a href="./assets/imagenes/leyes.png" target="_blank"><img src="./assets/imagenes/leyes.png" alt="imagen8" width="600"></a>
+            <div class="desc">Leyes de la Electrónica</div>
+        </div>
+    </section> 
+    
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+    
+</body>
+</html>

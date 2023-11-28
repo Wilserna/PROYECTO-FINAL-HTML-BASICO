@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    width: 50%;
+    transition: opacity 2s ease-in-out 0.5s;
+}
+
+/* img:hover{
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+} */
+
+img:hover{
+    opacity: 0.5;
+   
+    width: 100%;
+}
